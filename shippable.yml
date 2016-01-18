@@ -11,7 +11,7 @@ env:
     - APP_NAME=sreyaheroku
     - MONGOLAB_URI=mongodb://localhost/test
     - XUNIT_FILE=shippable/testresults/result.xml
-    - secure: - secure: 5uaNNGmq/eI/xqo5M+snIRT6nnAxU1cT1VzqsZPm9v/M+9rRuBbShm9UvjTiullFXEKH96Wp2l+EMYBnU0ajP9c8Zl+7Y6q/D+nEtwAemkqmEbyYaMdt8SPo0ueJc5M5x+sanWexBBiRG1s2NB/4DlQcpAvFlndelDGC0pvd96AzdY1WN5CTNAkVr6UOPyPN03uE+cBKedTQi7zZ+icKgspbMG2oLKpdnlhITp+wIzySP80BTljVk7PYPgVPaalvmBygjPufHn6Hr3dGw174Id6mbASrd29mJeeIO8LV3LVDgQm7OjqLhwNzP8nFW2DB/Edi2Cd9BwI924gZA4h2VQ==
+    - secure: 5uaNNGmq/eI/xqo5M+snIRT6nnAxU1cT1VzqsZPm9v/M+9rRuBbShm9UvjTiullFXEKH96Wp2l+EMYBnU0ajP9c8Zl+7Y6q/D+nEtwAemkqmEbyYaMdt8SPo0ueJc5M5x+sanWexBBiRG1s2NB/4DlQcpAvFlndelDGC0pvd96AzdY1WN5CTNAkVr6UOPyPN03uE+cBKedTQi7zZ+icKgspbMG2oLKpdnlhITp+wIzySP80BTljVk7PYPgVPaalvmBygjPufHn6Hr3dGw174Id6mbASrd29mJeeIO8LV3LVDgQm7OjqLhwNzP8nFW2DB/Edi2Cd9BwI924gZA4h2VQ==
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
